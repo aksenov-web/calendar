@@ -43,3 +43,64 @@ header {
         border-radius: 99px;
     }
 }
+#pick {
+    width: 802px;
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    margin-top: 40px;
+
+
+H2 {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.56px;
+    color: #EEECF1;
+    padding-left: 24px;
+}
+
+    }
+#cal_var {
+    width: 476px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background: #17151C;
+    border-radius: 10px;
+    margin-right: 24px;
+
+
+    a {
+        text-decoration: none;
+        color: #7A7585;
+        font-family: IBM Plex Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 32px;
+        padding: 0 38px;
+        border-radius: 8px;
+            }
+    .pick-buttons:hover {
+        background: #2A2731;
+
+}
+}
+table {
+    background: black;
+    width: 320px;
+    height: 316px;
+    margin-top: 40px;
+    color: #ffffff;
+    text-align:center;
+}
+table * {
+    border: 1px solid green;
+}
+
